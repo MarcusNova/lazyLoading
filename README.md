@@ -5,8 +5,10 @@ ejercicios para nutrir mis habilidades como desarrollador.
 Hago uso de lazy loading, una interesante forma de optimizar la carga de imagenes, videos e iframes con los que disminuimos la 
 carga inicial consumiendo sólo las peticiones para cargar la página y el contenido minimamente necesarios y el resto es cargado
 conforme el usuario lo necesita.
+
 En este ejercicio, hice uso del atributo loading que al parecer debería tener soporte en todos los navegadores pero no funciona 
-igual en Chrome. Chrome al parecer buscar cargar toda la información lo más rápido posible por lo que el loading lazy no tiene
+igual en Chrome. 
+Chrome al parecer buscar cargar toda la información lo más rápido posible por lo que el loading lazy no tiene
 el mismo resultado. En Firefox el lazy loading funciona perfectamente.
 Una de las formas de optimizacion es comprimir el peso de las imagenes por medio de una aplicacion o compresor, para este caso
 utilice TinyPNG como compresor con el fin de reducir el tiempo de carga, otra de las formas de optimizar estos tiempos es
